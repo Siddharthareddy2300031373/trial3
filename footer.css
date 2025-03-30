@@ -1,0 +1,38 @@
+footer {
+    background-color: #232f3e; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Space around content */
+    display: flex; /* Layout for sections */
+    justify-content: space-between; /* Even spacing between sections */
+    flex-wrap: wrap; /* Allow sections to stack on smaller screens */
+  }
+  
+  .footer-section {
+    margin: 10px;
+    width: 200px; /* Fixed width for sections */
+  }
+  
+  .footer-section h3 {
+    font-size: 16px; /* Slightly larger font for headings */
+    border-bottom: 1px solid #ddd; /* Underline for headings */
+    padding-bottom: 5px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer-section ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
